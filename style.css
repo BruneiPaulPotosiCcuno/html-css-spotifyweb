@@ -1,0 +1,105 @@
+/* RESET */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo-container {
+  margin: 17px;
+  display: flex;
+}
+
+.sidebar .spotify-logo--text {
+  width: 190px;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar {
+  width: 307px; /* Ancho del menú lateral */
+  height: 100vh; /* Altura del menú igual al 100% del viewport */
+  background-color: #000000; /* Color de fondo */
+  color: #717171; /* Color del texto */
+  position: fixed; /* Fijar posición */
+  left: 0; /* Pegar a la izquierda */
+  top: 0; /* Pegar arriba */
+}
+
+.sidebar ul {
+  list-style: none; /* Quitar viñetas */
+  padding: 0;
+}
+
+/* LINEA */
+
+.sidebar ul li {
+  padding: 10px;
+}
+
+.sidebar ul li {
+  display: flex;
+}
+
+.sidebar a {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar ul li a {
+  color: #717171;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.sidebar h1 {
+  color: white;
+  font-size: 23px;
+  margin-left: 28px;
+}
+
+.add-playlist {
+  padding: 15px;
+  font-size: 30px;
+  color: black;
+  background-color: #a3a3a3;
+}
+
+.text-add-playlist {
+  font-size: 24px;
+  padding: 0 15px;
+}
+
+.sidebar li {
+  font-size: 20px;
+  margin: 10px 20px;
+}
+
+.border-green {
+  border-left: 10px solid #b1ff30;
+  border-radius: 3px;
+}
+
+.home {
+  color: #ffffff;
+}
+
+img {
+  width: 34px;
+}
+
+.border-green {
+  margin-left: 0px;
+}
+
+/* HEADER-BUTTOM */
+
+header {
+  margin-left: 307px; /* Dejar espacio a la izquierda del contenido para el menú */
+  padding: 20px;
+  display: flex;
+  background-color: red;
+  width: 87%;
+}
