@@ -16,6 +16,7 @@ img {
 -------------------*/
 body {
   font-family: "Montserrat", sans-serif;
+
 }
 
 /*------------------
@@ -138,7 +139,6 @@ header {
   background-color: rgb(0, 0, 0);
   margin-top: auto;
   padding: 10px 25px;
-
 }
 
 .account i{
@@ -153,6 +153,7 @@ header {
   margin-left: 10px;
   color: #777777;
   background-color: black;
+  
 }
 
 .account img{
@@ -183,28 +184,124 @@ header {
   MAIN
 -------------------*/
 main {
-  background-color: yellow;
+  background-color: #141922;
   overflow-y: auto;
   flex-grow: 1;
 }
 
-.btn-upgrade{
-    -webkit-border-radius: 60;
-    -moz-border-radius: 60;
-    border-radius: 60px;
-    color: #ffffff;
-    font-size: 18px;
-    background: #080b12;
-    padding: 10px 40px 10px 40px;
-    border: solid #ffffff 3px;
-    text-decoration: none;
-    margin: 0 auto;
-}
-
 .container-upgrade{
-  display: flex;
   height: 145px;
   background-color: #080b12;
+  
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 20px;
+  position: sticky;
+}
+
+
+
+button{
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  color: #ffffff;
+  font-size: 18px;
+  background: #080b12;
+  padding: 10px 40px 10px 40px;
+  border: solid #ffffff 3px;
+  text-decoration: none;
+  
+}
+
+btn-upgrade{
+  display: flex;
+  justify-content: center;
+}
+
+/*------------------
+  main-nav
+-------------------*/
+
+.container-nav{
+  background-color: #141922;
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-nav ul{
+  display: flex;
+  list-style: none;
+}
+
+
+.container-nav li{
+  padding: 15px;
+  font-size: 19px;
+  font-weight: 700;
+  color: #7f8085;
+}
+
+/*------------------
+  PLAYED
+-------------------*/
+
+.tittle-played{
+  margin: 15px;
+  padding: 5px;
+  color: #ffffff;
+}
+
+.played-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.played-container img {
+  
+  height: 250px;
+  margin: 15px;
+  padding: 5px;
+
+}
+
+.image-with-text h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 800;
+  color: #ffffff;
+  text-align: center;
+  width: 300px;
+  
+}
+
+.image-with-text p {
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+  font-weight: 800;
+  color: #7d8084;
+  padding-top: 15px;
+}
+
+.imgcircle{
+  border-radius: 100%;
+  
+}
+
+.text-suggest{
+  padding-top: 20px;
+  color: #87888d;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.fix-hight{
+  padding-top: 30px;
 }
 
 
@@ -214,21 +311,90 @@ main {
 -------------------*/
 footer {
   height: 90px;
-  background-color: lightblue;
+  background-color: #282828;
+  display: flex;
+  justify-content: space-between;
+}
+
+.player-left{
   display: flex;
   align-items: center;
+  
+}
+
+.song h2{
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.song p{
+  font-size: 15px;
+  color: #878787;
+  font-weight: 600;
+}
+
+
+.items-song{
+  font-size: 25px;
+  padding: 30px;
+  color: #6b6b6b;
+}
+
+.player-left img{
+  height: 70px;
+  margin: 15px;
+  padding: 5px;
+}
+
+.player-center i{
+  font-size: 23px;
+  padding: 15px;
+  color: #ffffff;
+}
+
+.player-center :nth-child(3){
+  font-size: 36px;
+  font-weight: 700;
 }
 
 .bar {
   height: 6px;
   background: gray;
-  width:50%;
+  width:100%;
+  display: flex;
+
 }
 .bar-inside {
-  height: 100%;
+  
   width: 50%;
-  background: lightgray;
+  background: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+
 }
+
+.player-right{
+  font-size: 24px;
+  margin: 15px;
+  padding: 5px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.player-right i{
+  padding-left: 20px;
+}
+
+.volumen {
+  width: 200px;
+  height: 5px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  margin-left: 20px;
+}
+
 
 /*------------------
   RESPONSIVE
