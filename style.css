@@ -95,6 +95,8 @@ header {
   padding: 5px;
 }
 
+
+
 .main-nav li {
   display: flex;
   align-items: center;
@@ -463,6 +465,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: stretch;
+    position: fixed;
   }
 
 .items-song i{
