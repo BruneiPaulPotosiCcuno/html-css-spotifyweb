@@ -6,9 +6,44 @@
   margin: 0;
   padding: 0;
 }
+/*------------------
+  hovers
+-------------------*/
+body li:hover{
+  color: #ffffff;
+  
+}
+
+main p:hover{
+  color: #ffffff;
+}
+
+i:hover{
+  color: #ffffff;
+}
+
+.container-nav li:hover {
+  border-bottom: 5px solid #bfff30;
+  border-radius: 5px;
+}
+
+.btn-upgrade:hover {
+  transform: scale(1.1);
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease; 
+}
+
+footer i:hover{
+  transform: scale(1.2);
+  transition: transform 0.2s ease; 
+}
+
 
 /*------------------
-  TYPO
+  TYPOs
 -------------------*/
 body {
   font-family: "Montserrat", sans-serif;
@@ -77,7 +112,7 @@ header {
 
 .playlist-title {
   background-color: rgb(0, 0, 0);
-  padding: 25px;
+  padding: 20px;
   padding-top: 5px;
 }
 
@@ -104,12 +139,13 @@ header {
 
 
 .playlist-title button {
-  font-size: 23px;
+  font-size: 20px;
   font-weight: 700;
-  margin-left: 10px;
+  margin-left: 0px;
   color: #6b6b6b;
   background-color: black;
   border-style: none;
+  padding: 10px;
 }
 
 .playlist {
